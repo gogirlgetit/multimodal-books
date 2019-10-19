@@ -6,6 +6,6 @@ Reads an ePub. Identifies all important topics in the book. For each topic, sear
 Steps:
 1. Create your own training data. In this repo, hand_curated_ratings.tsv is the training dataset.
 2. Run training_data_features.py to pull features for the hand curated training data set.
-3. Train an ML model based on this training data with features.
+3. Train an ML model based on this training data with features using model.py.
 4. Use the co-efficients from the Model in book.py and run book.py on an ePub.
 5. Test to make sure that out.epub has YouTube video links embedded and generally enhance the quality of the original text.
