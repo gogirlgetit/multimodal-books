@@ -3,6 +3,8 @@ Given a textbook, make it multi-modal by embedding Video links in the textbook.
 
 Reads an ePub. Identifies all important topics in the book. For each topic, search for videos - identify top few videos. For each video, compute a relevance score based on the ML Model we used. Choose the most relevant video and link the video to the topic from the book. Write this modified content to a new ePub.
 
+Research note: https://www.ijntr.org/download_data/IJNTR05100013.pdf
+
 Steps:
 1. Create your own training data. In this repo, hand_curated_ratings.tsv is the training dataset.
 2. Run training_data_features.py to pull features for the hand curated training data set.
